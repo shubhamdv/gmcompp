@@ -1,0 +1,13 @@
+{
+  "name": "gmcomp",
+  "authors": [
+    "Shubham Lakhiwal <shubham.lakhiwal@delhivery.com>"
+  ],
+  "description": "gmcomp",
+  "main": "main.js",
+  "keywords": [
+    "gm-cmpp"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
