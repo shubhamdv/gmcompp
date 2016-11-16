@@ -1,7 +1,7 @@
 (function(){
     'use strict';
 
-    angular.module('wmsApp')
+    angular.module('gmSubmoduleApp')
         .config(config);
     config.$inject=['$routeProvider'];
 

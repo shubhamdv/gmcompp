@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     /* jshint camelcase: false */
-    angular.module('wmsApp')
+    angular.module('gmSubmoduleApp')
         .controller('dashboardCtrl', DashboardCtrl);
     DashboardCtrl.$inject = ['$scope'];
 
