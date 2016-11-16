@@ -1,0 +1,31 @@
+<section>
+  <nav class="header">
+    <div data-ng-controller="NavbarCtrl" data-ng-include="'components/navBar/navBar.html'"></div>
+  </nav>
+  <div class="content-wrapper menu_visible">
+    <div class="grey_background"></div>
+    <div data-ng-include="'components/leftMenu/leftMenu.html'"></div>
+    <div class="content-area">
+      <h1>{{vm.title}}</h1>
+    </div>
+    <div class="content-area-footer padding_top_0" ng-if="vm.locDetails">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="pull-right">
+            <div class="btn-group">
+              <label>{{'KEY_PRESS_LABEL.CTRL_ENTER_KEY' | translate}}</label>
+              <br>
+              <button type="button" id="moveLocation" class="btn btn-primary" data-target="" ng-click="vm.refreshPage(true);">{{'INPUT_TEXT.DONE' | translate}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</section>
