@@ -9,5 +9,12 @@
     "gm-cmpp"
   ],
   "license": "MIT",
-  "homepage": ""
+  "homepage": "https://github.com/shubhamdv/gmcompp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
