@@ -18,7 +18,6 @@
     	    'daterangepicker',
     	    '720kb.datepicker',
     	    'cfp.hotkeys',
-    	    /*$$*<gmSubMod>*$$*/
     	    'LocalStorageModule',
     	])
     }
